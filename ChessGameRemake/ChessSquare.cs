@@ -38,7 +38,6 @@ namespace ChessGameRemake
             }
         }
         public Point Position { get => position; }
-        public ChessBoard ParentBoard { get => parentBoard; set => parentBoard = value; }
         public ChessPiece Piece 
         { 
             get => piece; 

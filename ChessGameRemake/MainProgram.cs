@@ -13,8 +13,6 @@ namespace ChessGameRemake
 
             Application.Run(f);
         }
-
-
     }
 
     class MyForm : Form

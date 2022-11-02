@@ -41,6 +41,7 @@ namespace ChessGameRemake
 
         #region properties
         public PieceColor Color { get => color; set => color = value; }
+        
         public Point Position 
         { 
             get => position;
@@ -50,8 +51,7 @@ namespace ChessGameRemake
                 parentBoard.Board[value.X, value.Y].Image = Image.FromFile(this.imageLink);
             }
         }
-        public ChessBoard ParentBoard { get => parentBoard; set => parentBoard = value; }
-        public PieceType Type { get => type;}
+
         public string ImageLink { get => imageLink; set => imageLink = value; }
         public bool[,] CanMoves { get => canMoves; set => canMoves = value; }
         public bool[,] CanAttacks { get => canAttacks; set => canAttacks = value; }

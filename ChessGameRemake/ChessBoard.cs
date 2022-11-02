@@ -114,8 +114,6 @@ namespace ChessGameRemake
             }
         }
 
-        
-
         public void UpdateMoves()
         {
             for (int i = 0; i < MAXIMUM_N_BOARD_ROWS; i++)
