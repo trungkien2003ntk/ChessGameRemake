@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessGameRemake", "ChessGameRemake\ChessGameRemake.csproj", "{8E455722-F2CD-4B71-B483-AD8F89B1A99A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E455722-F2CD-4B71-B483-AD8F89B1A99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E455722-F2CD-4B71-B483-AD8F89B1A99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E455722-F2CD-4B71-B483-AD8F89B1A99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E455722-F2CD-4B71-B483-AD8F89B1A99A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAEA2DD0-973F-47FA-A4DB-82347957BF20}
+	EndGlobalSection
+EndGlobal
