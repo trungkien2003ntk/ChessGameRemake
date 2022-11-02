@@ -24,8 +24,6 @@ namespace ChessGameRemake
         protected int MAX_DISTANCE = 7;
 
         #region field
-        // for pawn
-        protected bool canDoubleJump;
 
         // for all other
         private string imageLink;
@@ -40,8 +38,11 @@ namespace ChessGameRemake
 
 
         #region properties
-        public PieceColor Color { get => color; set => color = value; }
+        // for pawn
+        protected bool CanDoubleJump { get => (color == PieceColor.White && position.X == 1) || (color == PieceColor.Black && position.X == 6); }
         
+        // genearl
+        public PieceColor Color { get => color; set => color = value; }
         public Point Position 
         { 
             get => position;

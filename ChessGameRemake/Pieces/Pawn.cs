@@ -16,7 +16,6 @@ namespace ChessGameRemake.Pieces
                 ImageLink = ChessPieceResources.IMAGE_PAWN_BLACK;
 
             type = PieceType.Pawn;
-            canDoubleJump = true;
         }
 
         public override void CalculateMove()
@@ -50,16 +49,24 @@ namespace ChessGameRemake.Pieces
                 case Direction.Down:
                     currX++;
                     break;
-                case Direction.Left:
-                    currY--;
-                    break;
-                case Direction.Right:
-                    currY++;
-                    break;
             }
 
             if (IsValidPosition(new Point(currX, currY)))
             {
+                CheckIfCanMoveAtPosition(currX, currY);
+            }
+
+            if (CanDoubleJump)
+            {
+                switch (direction)
+                {
+                    case Direction.Up:
+                        currX--;
+                        break;
+                    case Direction.Down:
+                        currX++;
+                        break;
+                }
                 CheckIfCanMoveAtPosition(currX, currY);
             }
         }
