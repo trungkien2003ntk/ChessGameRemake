@@ -4,3 +4,4 @@ C:\Users\ADMIN\source\repos\ChessGameRemake\ChessGameRemake\bin\Debug\ChessGameR
 C:\Users\ADMIN\source\repos\ChessGameRemake\ChessGameRemake\obj\Debug\ChessGameRemake.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\ChessGameRemake\ChessGameRemake\obj\Debug\ChessGameRemake.exe
 C:\Users\ADMIN\source\repos\ChessGameRemake\ChessGameRemake\obj\Debug\ChessGameRemake.pdb
+C:\Users\ADMIN\source\repos\ChessGameRemake\ChessGameRemake\obj\Debug\ChessGameRemake.csproj.AssemblyReference.cache
