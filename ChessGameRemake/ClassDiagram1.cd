@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChessGameRemake.ChessBoard">
+    <Position X="1" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAQAAAkAAQQKGAAgAAQyAAQAAQAIggAgCIAAAE=</HashCode>
+      <FileName>ChessBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.ChessPiece">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAMAAgBAAQIAAAAAQBgAKACAAAhEAAACw=</HashCode>
+      <FileName>ChessPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.ChessSquare">
+    <Position X="4.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgAAAAIAAAAAQAAACgAAAAoAAAAAg=</HashCode>
+      <FileName>ChessSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.Pieces.Bishop">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces\Bishop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.Pieces.King">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces\King.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.Pieces.Knight">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces\Knight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.Pieces.Pawn">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <InheritanceLine Type="ChessGameRemake.ChessPiece" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="2.941" />
+        <Point X="11.875" Y="2.941" />
+        <Point X="11.875" Y="3" />
+        <Point X="12.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQBAAAABAAAAAAAAAAAAQAAIAAAAA=</HashCode>
+      <FileName>Pieces\Pawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.Pieces.Queen">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces\Queen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGameRemake.Pieces.Rook">
+    <Position X="12.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces\Rook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
