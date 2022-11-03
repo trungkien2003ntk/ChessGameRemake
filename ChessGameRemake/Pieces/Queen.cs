@@ -11,9 +11,9 @@ namespace ChessGameRemake.Pieces
         public Queen(ChessBoard parentBoard, PieceColor color) : base(parentBoard, color)
         {
             if (color == PieceColor.White)
-                ImageLink = ChessPieceResources.IMAGE_QUEEN_WHITE;
+                imageLink = ChessPieceResources.IMAGE_QUEEN_WHITE;
             else
-                ImageLink = ChessPieceResources.IMAGE_QUEEN_BLACK;
+                imageLink = ChessPieceResources.IMAGE_QUEEN_BLACK;
 
             type = PieceType.Queen;
         }

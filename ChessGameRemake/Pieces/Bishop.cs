@@ -11,9 +11,9 @@ namespace ChessGameRemake.Pieces
         public Bishop(ChessBoard parentBoard, PieceColor color) : base(parentBoard, color)
         {
             if (color == PieceColor.White)
-                ImageLink = ChessPieceResources.IMAGE_BISHOP_WHITE;
+                imageLink = ChessPieceResources.IMAGE_BISHOP_WHITE;
             else
-                ImageLink = ChessPieceResources.IMAGE_BISHOP_BLACK;
+                imageLink = ChessPieceResources.IMAGE_BISHOP_BLACK;
 
             type = PieceType.Bishop;
         }

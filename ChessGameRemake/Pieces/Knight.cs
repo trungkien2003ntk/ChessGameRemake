@@ -7,9 +7,9 @@ namespace ChessGameRemake.Pieces
         public Knight(ChessBoard parentBoard, PieceColor color) : base(parentBoard, color)
         {
             if (color == PieceColor.White)
-                ImageLink = ChessPieceResources.IMAGE_KNIGHT_WHITE;
+                imageLink = ChessPieceResources.IMAGE_KNIGHT_WHITE;
             else
-                ImageLink = ChessPieceResources.IMAGE_KNIGHT_BLACK;
+                imageLink = ChessPieceResources.IMAGE_KNIGHT_BLACK;
 
             type = PieceType.Knight;
         }

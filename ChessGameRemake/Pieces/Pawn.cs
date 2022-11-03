@@ -11,9 +11,9 @@ namespace ChessGameRemake.Pieces
         public Pawn(ChessBoard parentBoard, PieceColor color) : base(parentBoard, color)
         {
             if (color == PieceColor.White)
-                ImageLink = ChessPieceResources.IMAGE_PAWN_WHITE;
+                imageLink = ChessPieceResources.IMAGE_PAWN_WHITE;
             else
-                ImageLink = ChessPieceResources.IMAGE_PAWN_BLACK;
+                imageLink = ChessPieceResources.IMAGE_PAWN_BLACK;
 
             type = PieceType.Pawn;
         }

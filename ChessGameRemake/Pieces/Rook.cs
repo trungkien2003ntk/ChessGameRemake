@@ -11,9 +11,9 @@ namespace ChessGameRemake.Pieces
         public Rook(ChessBoard parentBoard, PieceColor color) : base(parentBoard, color)
         {
             if (color == PieceColor.White)
-                ImageLink = ChessPieceResources.IMAGE_ROOK_WHITE;
+                imageLink = ChessPieceResources.IMAGE_ROOK_WHITE;
             else
-                ImageLink = ChessPieceResources.IMAGE_ROOK_BLACK;
+                imageLink = ChessPieceResources.IMAGE_ROOK_BLACK;
 
             type = PieceType.Rook;
         }

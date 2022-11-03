@@ -26,7 +26,7 @@ namespace ChessGameRemake
         #region field
 
         // for all other
-        private string imageLink;
+        protected string imageLink;
         protected PieceColor color;
         protected PieceType type;
         protected Point position;
@@ -53,7 +53,6 @@ namespace ChessGameRemake
             }
         }
 
-        public string ImageLink { get => imageLink; set => imageLink = value; }
         public bool[,] CanMoves { get => canMoves; set => canMoves = value; }
         public bool[,] CanAttacks { get => canAttacks; set => canAttacks = value; }
         #endregion
